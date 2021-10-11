@@ -1,6 +1,13 @@
 // hactopull
+<br><br>
+<br>#include<stdio.h>
 
-#include<stdio.h>
-int main () {
-  return 0;
-}
+<br>
+<br>
+<br>int sum(int x, int y) {
+<br>  return x+y;
+<br>}
+<br>
+<br>int main () {
+<br>  return 0;
+<br>}
