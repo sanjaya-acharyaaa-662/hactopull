@@ -1,8 +1,11 @@
 // C Program to add 2 numbers
-<br>#include<stdio.h>
-<br><br>int sum(int x, int y) {
-<br>  return x+y;
-<br>}
-<p>int <span style="color:red;">main</span> () {</p>
-<p style="margin-left: 10px;"><span style="color:cyan;">return</span> 0;</p>
-<br>}
+#include<stdio.h>
+int sum (int x, int y) {
+    return x+y;
+}
+
+int main () {
+    int a = 5; int b = 10;
+    printf("The sum of %d and %d is %d", a, b, sum(a,b));
+    return 0;
+}
